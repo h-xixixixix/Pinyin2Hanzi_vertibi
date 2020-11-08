@@ -30,7 +30,7 @@ Simple realization of pinyin input method
 最终使用λ=0.99
   
 ### 输出结果
-1. input.txt 句子准确率0.75，字准确率0.96
+1. input.txt 句子准确率0.75，字准确率0.96  
 input: 
 * qing hua da xue ji suan ji xi
 * wo shang xue qu le
@@ -51,7 +51,6 @@ output:
 &emsp;('灵谷先生', ' 输出:灵谷先生'),  
 &emsp;('我说', ' 输出:我说'),   
 &emsp;('我有一个苹果', ' 输出:我有一个苹果')  
-  
 部分错误结果：  
 &emsp;('虽然已经解决了建立新技分方法的首要问题', ' 输出:虽然已经解决了[简历]新[几]分方法的首要问题'),  
 &emsp;('建立了交易办机上的策独立伦', ' 输出:建立了交易办机上的[策都理论]'),  
