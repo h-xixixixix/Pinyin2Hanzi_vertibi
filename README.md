@@ -25,7 +25,7 @@ Simple realization of pinyin input method
   
 ## 实验结果
 ### 调参结果
-使用input.txt进行测试，得到结果与output.txt比对。字准确率高于据字准确率。由于样本较少，得到字准确率、句子准确率结果均较高，随λ增大而增大并趋于平缓。  
+使用input.txt进行测试，得到结果与output.txt比对。字准确率高于句子准确率。由于样本较少，得到字准确率、句子准确率结果均较高，随λ增大而增大并趋于平缓。  
 ![test_accuracy of different λ](https://github.com/h-xixixixix/Pinyin2Hanzi_vertibi/blob/main/src/test_accuracy_%CE%BB_input.png)   
 使用更多样本[input_2.txt](https://github.com/AlexFxw/simple-pinyin-input/blob/master/data/input.txt)，得到训练结果句子准确率明显降低，准确率随λ增大而增大并趋于平缓。  
 最终使用λ=0.99  
